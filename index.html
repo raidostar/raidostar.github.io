@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+  <head>
+    <title>raidostar.github.io</title>
+  </head>
+  <body>
+    <div>
+      <p>helpdesk</p>
+      <input id="vpc" type="text" name="vpc" onkeydown="printResult()"/>
+    </div>
+    <div>
+      <p>
+        result: <p id="result"></p>
+      </p>
+    </div>
+  </body>
+  <script type="text/javascript">
+    var vpc = document.getElementById("vpc").value;
+    function printResult(){
+      document.getElementById("result").value = vpc;
+    }
+  </script>
+</html>
